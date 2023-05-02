@@ -16,4 +16,23 @@ while ((Usuario != Usuario_adm) and (Contraseña != Contraseña_adm)) and Contad
       print ("Compruebe si su Usuario o Contraseña estan correctos. Vuelva a intentarlo")
    else:
       print("Su numero de intentos ha finalizado")
-      
+
+
+
+if Usuario == Usuario_adm and Contraseña == Contraseña_adm:
+   Menú_Principal = input ("""Elija una opción:
+                           1. Gestión de locales
+                           2. Crear cuentas de dueños de locales
+                           3. Aprobar / Denegarsolicitud de descuento
+                           4. Gestión de Novedades
+                           5. Reporte de utilización de descuentos
+                           0. Salir 
+                           """)
+   if Menú_Principal == "1":
+      Menú_Principal = input("""
+            a) Crear locales
+            b) Modificar local
+            c) Eliminar local
+            d) Volver 
+            """)
+      print (Menú_Principal)
