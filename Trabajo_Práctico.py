@@ -13,9 +13,7 @@ while ((Usuario != Usuario_adm) and (Contraseña != Contraseña_adm)) and Contad
    if Usuario == Usuario_adm and Contraseña == Contraseña_adm:
       print ("Hola, has ingresado correctamente")
    elif Contador < 3: 
-      print ("Compruebe si su Usuario o Contraseña estan correctos, vuelva a intentarlo")
+      print ("Compruebe si su Usuario o Contraseña estan correctos. Vuelva a intentarlo")
    else:
       print("Su numero de intentos ha finalizado")
-
-
-
+      
